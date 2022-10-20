@@ -172,9 +172,9 @@ img {
 }
 .teachers {
     display: flex;
-    display:inline-flex;
+    /* display:inline-flex; */
     flex-wrap: wrap;
-    justify-items: space-between;
+    justify-items: space-around;
     /* margin: auto 150px auto 150px; */
     justify-content: center;
     background-image: url(images/note.jpg);
@@ -183,7 +183,7 @@ img {
     overflow: hidden;
     border-radius: 10px;
     flex-wrap: wrap;
-    
+    /* max-width: fit-content; */
 }
 .hoca-text {
     text-align: center;
