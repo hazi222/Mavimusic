@@ -161,7 +161,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-items: space-between;
-    margin: auto 150px auto 150px;
+    /* margin: auto 150px auto 150px; */
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -175,7 +175,7 @@ img {
     display:inline-flex;
     flex-wrap: wrap;
     justify-items: space-between;
-    margin: auto 150px auto 150px;
+    /* margin: auto 150px auto 150px; */
     justify-content: center;
     background-image: url(images/note.jpg);
     background-size: cover;
