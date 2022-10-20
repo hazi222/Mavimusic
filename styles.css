@@ -333,11 +333,12 @@ h2 {
   }
   
   .text-koray {
-    white-space: nowrap; 
+    white-space: wrap; 
     color: white;
-    font-size: 20px;
+    font-size: 19px;
     position: absolute;
     overflow: hidden;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -375,11 +376,12 @@ h2 {
   }
   
   .text-kutay {
-    white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
+    white-space: wrap; 
+    color: white;
+    font-size: 19px;
+    position: absolute;
   overflow: hidden;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
