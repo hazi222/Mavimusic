@@ -16,6 +16,7 @@ html {
     margin-right: auto;
     border-radius: 10px;
     color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 8px #ffffff;
 }
 
 .page-title:hover {
@@ -95,6 +96,7 @@ img {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
 .header-title a {
@@ -277,7 +279,7 @@ footer:hover {
 p {
     font-family: 'Dosis', sans-serif;
 }
-#top-page {
+.top-nav a {
     font-family: 'Cinzel', sans-serif;
 }
 h2 {
