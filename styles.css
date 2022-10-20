@@ -1,5 +1,6 @@
 * {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Cinzel', sans-serif;
+
 }
 .page-title {
     border-top: 3px solid;
@@ -10,14 +11,17 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    color:rgb(0, 0, 0);
 }
 .page-title:hover {
     cursor: pointer;
     filter: invert(1);
 }
 body {
-    background: rgb(97, 106, 110);
-    background: linear-gradient(90deg, rgb(102, 105, 107) 0%, rgb(70, 81, 86) 100%);
+    /* background: rgb(97, 106, 110);
+    background: linear-gradient(90deg, rgb(102, 105, 107) 0%, rgb(70, 81, 86) 100%); */
+    background: rgb(5, 44, 59);
+    background: linear-gradient(252deg, rgb(5, 59, 80) 32%, rgba(58, 87, 97, 0.99) 100%);
 }
 img {
     border-radius: 10px;
@@ -30,7 +34,6 @@ img {
 .icons {
     display: flex;
     justify-content: space-between;
-    margin: auto 300px auto 300px;
     flex-wrap: wrap;
 }
 .icons:hover {
@@ -39,6 +42,10 @@ img {
 .icon-item {
     border: 2px solid;
     padding: 3px;
+    margin-inline: 20px;
+}
+.ilk-mavi {
+    color: white;
 }
 .icon-item:hover {
     animation-name: icons;
@@ -53,8 +60,10 @@ img {
 }
 .navbar {
     display: flex;
-    background: rgb(97, 106, 110);
-    background: linear-gradient(90deg, rgb(102, 105, 107) 0%, rgb(70, 81, 86) 100%);
+    /* background: rgb(97, 106, 110);
+    background: linear-gradient(90deg, rgb(102, 105, 107) 0%, rgb(70, 81, 86) 100%); */
+    background: rgb(6,72,99);
+    background: linear-gradient(252deg, rgba(6,72,99,1) 32%, rgba(89,132,148,0.99) 100%);
     justify-content: center;
     margin-top: 50px;
     border-radius: 20px;
@@ -121,7 +130,7 @@ img {
     text-transform: uppercase;
     font-size: larger;
     font-weight: bold;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 0 20px 0 20px;
     width: fit-content;
     display: table;
@@ -174,6 +183,7 @@ img {
     overflow: hidden;
     border-radius: 10px;
     flex-wrap: wrap;
+    
 }
 .hoca-text {
     text-align: center;
@@ -211,19 +221,43 @@ img {
     background-color: rgba(0, 0, 0, 0.36);
     border-radius: 10px;
     padding: 0;
+    
 }
 footer {
     display: table;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    
 }
 footer a {
     text-decoration: none;
     color: black;
+    font-family: 'Dosis', sans-serif;
 }
 footer:hover {
     cursor: pointer;
+}
+.footer-container {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+p {
+    font-family: 'Dosis', sans-serif;
+}
+h2 {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    width: fit-content;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    padding: 5px;
 }
 .dogan-info {
     position: relative;
@@ -241,7 +275,7 @@ footer:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000000;
+    background-color: #000000bb;
     color: black;
     overflow: hidden;
     width: 0;
@@ -284,7 +318,7 @@ footer:hover {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #000000;
+  background-color: #000000bb;
   color: white;
   overflow: hidden;
   width: 100%;
@@ -326,7 +360,7 @@ footer:hover {
     bottom: 0;
     left: 100%;
     right: 0;
-    background-color: #000000;
+    background-color: #000000bb;
     color: white;
     overflow: hidden;
     width: 0;
