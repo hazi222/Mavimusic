@@ -30,6 +30,7 @@ body {
     background: rgb(5, 44, 59);
     height: 100%;
     background: linear-gradient(141deg, rgb(6, 67, 91) 32%, rgba(58, 87, 97, 0.99) 100%);
+    margin: 0;
 }
 
 img {
@@ -77,10 +78,7 @@ img {
 
 .navbar {
     display: flex;
-    /* background: rgb(97, 106, 110);
-    background: linear-gradient(90deg, rgb(102, 105, 107) 0%, rgb(70, 81, 86) 100%); */
     background: rgb(6, 72, 99);
-    background: linear-gradient(252deg, rgba(6, 72, 99, 1) 32%, rgba(89, 132, 148, 0.99) 100%);
     justify-content: center;
     margin-top: 50px;
     border-radius: 20px;
